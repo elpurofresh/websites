@@ -1,0 +1,301 @@
+* {margin:0px;padding:0px;top:0px;left:0px;}
+body{
+	text-align: center;
+	background-color: #666666;
+}
+#central{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	position: relative;
+	width: 777px;
+	text-align: left;
+	background-color: #FFFFFF;
+}
+#header{
+	background-image: url(images/headerTitle1.jpg);
+	height: 226px;
+	width: 777px;
+	left: 0px;
+	top: 0px;
+	border:1px;
+}
+#header a{
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	color: #000000;
+	text-decoration: none;
+	font-family: Verdana;
+	position: relative;
+	left: 98px;
+	top: 154px;
+}
+
+.sitename {
+	text-align: center;
+	width: 180px;
+}
+
+#navlist{
+	margin-left: 0px;
+	padding-left: 0px;
+	white-space: nowrap;
+	position: absolute;
+	height: 26px;
+	width: 777px;
+	top: 225px;
+	background: url(images/navMenu.jpg) repeat-x top left;
+	font-family: Arial;
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+#navlist li{
+	display: inline;
+	list-style-type: none;
+}
+
+#navlist li a {
+	padding: 3px 10px;
+	height: 20px;
+	width: 91px;
+	display: inline;
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	margin-top: 5px;
+}
+
+#navlist li a span{
+	padding: 3px 10px;
+	height: 20px;
+	width: 91px;
+	display: inline;
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	margin-top: -5px;
+}
+
+#navlist a:hover { background: #0687eb; height: 10px; cursor: pointer;}
+
+#n1{left: 0px;}
+#n2{left: 111px;}
+#n3{left: 222px;}
+#n4{left: 333px;}
+#n5{left: 444px;}
+#n6{left: 555px;}
+#n7{left: 666px;}
+
+#leftside{
+	float: left;
+}
+
+#content{
+	margin-top: 252px;
+	position: absolute;
+	width: 777px;
+	background-color: #FFFFFF;
+}
+
+#msledPic{
+	margin-left: 35px;
+	height: 152px;
+	width: 200px;
+	background-image: url(images/MSLED_letter_size_exploded_lengthSmall.jpg);
+	margin-top: 63px;
+	border:3px solid blue;
+}
+
+#so2SensorPic{	
+	margin-left: 35px;
+	height: 150px;
+	width: 200px;
+	background-image: url(images/so2SensorSmall.jpg);
+	margin-top: 60px;
+	border:3px solid blue;
+}
+
+#spiderBotPic{	
+	margin-left: 35px;
+	height: 150px;
+	width: 200px;
+	background-image: url(images/zeroGravitySpiderRobots.jpg);
+	margin-top: 60px;
+	border:3px solid blue;
+} 
+
+#greenlandHeliPic{	
+	margin-left: 35px;
+	height: 134px;
+	width: 200px;
+	background-image: url(images/greenlandHeli.jpg);
+	margin-top: 60px;
+	border:3px solid blue;
+}
+
+#tumbleweedPic{	
+	margin-left: 35px;
+	height: 178px;
+	width: 200px;
+	background-image: url(images/southPole.jpg);
+	margin-top: 60px;
+	border:3px solid blue;
+}
+
+#helicopterPic{	
+	margin-left: 35px;
+	height: 150px;
+	width: 200px;
+	background-image: url(images/helicopter.jpg);
+	margin-top: 60px;
+	border:3px solid blue;
+}
+
+#hydroVentPic{
+	margin-left: 35px;
+	height: 133px;
+	width: 200px;
+	background-image: url(images/iceLandHydrothermalVent.jpg);
+	margin-top: 60px;
+	border:3px solid blue;
+}
+
+#kilueaPic{
+	margin-left: 35px;
+	height: 134px;
+	width: 200px;
+	background-image: url(images/kiluea_Volcano.jpg);
+	margin-top: 60px;
+	border:3px solid blue;
+}
+
+#greenLandMoulinPic{
+	margin-left: 35px;
+	height: 150px;
+	width: 200px;
+	background-image: url(images/greenLandMoulinSmall.jpg);
+	margin-top: 60px;
+	border:3px solid blue;
+}
+#lakeEngelhardtPic{
+	margin-left: 35px;
+	height: 150px;
+	width: 200px;
+	background-image: url(images/lakeEngelhardt.jpg);
+	margin-top: 60px;
+	border:3px solid blue;
+}
+
+#ventSamplerPic{
+	margin-left: 35px;
+	height: 160px;
+	width: 200px;
+	background-image: url(images/ventSampler.jpg);
+	margin-top: 60px;
+	border:3px solid blue;
+}
+
+#hvsTestPic{
+	margin-left: 35px;
+	height: 160px;
+	width: 200px;
+	background-image: url(images/hvsTest.jpg);
+	margin-top: 60px;
+	border:3px solid blue;
+}
+
+#rightside{
+	float: right;
+	width: 460px;
+	background-color: #FFFFFF;
+	margin-right: 15px;
+	margin-top: 20px;
+}
+
+#rightside p{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: black;
+	text-align:justify;
+	margin-left: 0px;
+	margin-bottom: 20px;
+	max-width: 460px;
+}
+
+#rightside h1{
+	margin: 10px 0px 10px 0px;
+	width: 300px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #033387;
+}
+
+#itemize {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	text-align:justify;
+	text-indent:10px;
+}
+
+#itemize li {
+	list-style-position:inside;
+	line-height: 13px;
+}
+
+#itemize span{
+	margin-top: 10px;
+	margin-bottom: 4px;
+	width: 430px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+
+#itemize a{
+	color:#000000;
+}
+
+#publication {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: black;
+	font-weight: normal;
+	text-align:justify;
+	text-indent:10px;
+}
+
+#publication li {
+	list-style-position:inside;
+	line-height: 13px;
+}
+
+#footer{
+	clear: both;
+	background-color: #FFFFFF;
+	position: relative;
+	height: 122px;
+	background-image: url(images/bottom.jpg);
+	background-repeat: no-repeat;
+}
+
+#footer p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	float: right;
+	padding-top: 102px;
+	margin-right: 12px;
+}
+
+#footer a{color: #fff;} 

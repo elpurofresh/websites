@@ -1,0 +1,69 @@
+html, body {
+    margin: 0; padding:0; border: 0;
+}
+#header, #subtitle, #middle1, #middle2, #footer {
+    position: absolute;
+    width: 100%;
+}
+#header {
+	background: #0066FF;
+	color: white;
+	font-size: 40px;
+	font-family: 'calibri';
+	font-style: bold;
+	text-align: center;
+    height: 70px;
+    top: 0
+}
+#subtitle {
+	color: #0066FF;
+	font-size: 20px;
+	font-family: 'calibri';
+	text-align: center;
+	top:70px;
+}
+#middle1 {
+    top: 130px;
+    height: 375px;
+}
+#footer {
+	background: #0066FF;
+	color: white;
+	top: 920px;
+	height: 30px;
+}
+#middle2 {
+	position: absolute;
+	top: 530px;
+	height: 375px;
+}
+#left {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 45%;
+    height: 100%;
+	border: solid blue;
+	border-width: 2;
+	overflow-x: scroll;
+	overflow-y: scroll;
+	}
+#right {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    float: right;
+    width: 48%;
+    height: 100%;
+	border: solid blue;
+	border-width: 2;
+	overflow-x: scroll;
+	overflow-y: scroll;
+}
+TD{
+	font-family: calibri; 
+}
+TH{
+	font-family: calibri; 
+	font-style: bold;
+}
